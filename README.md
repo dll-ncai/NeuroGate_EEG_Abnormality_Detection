@@ -1,6 +1,6 @@
-# EEG Classification with NeuroGATE
+# EEG Pathology Detection with NeuroGATE
 
-This repository provides a PyTorch implementation of the NeuroGATE deep learning model for EEG classification. It utilizes the CereProcess library for data loading, preprocessing, model training, and evaluation, demonstrated in a comprehensive example notebook.
+This repository provides a PyTorch implementation of the NeuroGATE deep learning model for the detection of pathological EEG. It utilizes the CereProcess library for data loading, preprocessing, model training, and evaluation, demonstrated in a comprehensive example notebook.
 
 
 ---
