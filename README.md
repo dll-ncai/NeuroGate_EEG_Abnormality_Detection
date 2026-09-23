@@ -62,6 +62,8 @@ The notebook walks through:
 2. Initializing and training the NeuroGATE model
 3. Inspecting results and metrics
 
+To see which scalp regions the model relies on, open `saliency_visualization.ipynb`. It loads a trained checkpoint and plots Input × Gradient saliency as scalp topomaps for the most confident Abnormal and Normal recordings in the evaluation set (saved as `Saliency_Comparison.png`).
+
 ---
 
 ## Project Structure
@@ -73,6 +75,7 @@ NeuroGate_EEG_Classification/
 |   |-- __init__.py
 |   `-- neurogate.py
 |-- example.ipynb
+|-- saliency_visualization.ipynb
 |-- README.md
 ```
 
